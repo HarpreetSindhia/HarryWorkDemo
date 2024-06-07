@@ -76,6 +76,8 @@ public class StandAloneTest_1
 		String confirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("Thankyou for the order."));
+
+		//HopeFully you enjoying the Selenium Automation Course God Bless you
 		
 		driver.close();
 		
